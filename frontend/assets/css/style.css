@@ -1,0 +1,36 @@
+/* تنسيقات عامة */
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f4f7f6;
+    color: #333; 
+}
+
+/* تنسيق البطاقة */
+.product-card {
+    transition: all 0.3s ease-in-out;
+    border: none;
+    border-radius: 12px;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.1) !important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-bottom: 1px solid #eee;
+    object-position: center;
+}
+
+/* شارة السعر */
+.price-badge {
+    background: linear-gradient(45deg, #28a745, #218838);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
